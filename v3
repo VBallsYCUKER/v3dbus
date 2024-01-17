@@ -1,0 +1,13 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NEW! DBU Script Gui", "BloodTheme")
+
+local Tab = Window:NewTab("Others")
+local Section = Tab:NewSection("Autofarms/Hubs")
+
+Section:NewButton("ScripterGod's", "Pressforgui", function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VBallsYCUKER/scritpertgod/main/scriptergod", true))()
+end)
+
+Section:NewButton("Autofarm rebirths", "Autorebs", function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VBallsYCUKER/dlguam/main/dlguam", true))()
+end)
