@@ -11,3 +11,17 @@ end)
 Section:NewButton("Autofarm rebirths", "Autorebs", function ()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VBallsYCUKER/dlguam/main/dlguam", true))()
 end)
+
+Section:NewButton("AntiAfk", "AntiAfk", function ()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/luca5432/Roblox-ANTI-AFK-SCRIPT/main/Script", true))()
+end)
+
+local Section:NewSection("Misc Page1")
+
+Section:NewButton("Earth", "tp to earf", function ()
+    game.ReplicatedStorage.Package.Events.TP:InvokeServer("Earth")
+end)
+
+Section:NewButton("Vills", "tp to vills", function ()
+    game.ReplicatedStorage.Package.Events.TP:InvokeServer("Vills Planet")
+end)
